@@ -1,60 +1,98 @@
 @import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Roboto+Slab:wght@500&family=Source+Sans+Pro:wght@200;400;600&display=swap');
-/* Let's Add Our CSS */
 body {
-    background: #eee;
-    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
-    font-weight: 200;
-  }
-  a {
-    text-decoration: none;
-  }
-  p {
-    font-size: 0.9em;
-    text-align: justify;
-    padding: 0 10px;
-  }
-  
-  /* Time For Our Container */
-  .newspaper-container {
-    width: 700px;
-    margin: 3em auto;
-    padding: 1em;
-    box-sizing: border-box;
-    border-radius: 10px;
-    background: white;
-    box-shadow: 1px 1px 5px #ddd;
-  }
-  
-  /* Don't Forget Header */
-  .date {
-    font-size: 0.8em;
-  }
-  header h1 {
-    font-family: 'Abril Fatface', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    margin: 0;
-    font-size: 2.5em;
+    font-family: source sans pro;
+    background-color: #eee;
+}
+h1 {
+    font-family: abril Fatface;
     text-align: center;
-  }
-  
-  /* NavBar */
-  nav {
+    font-size: 40px;
+}
+h2 {
+    font-family: roboto Slab;
+}
+.newspaper-container {
+    background-color: white;
+    width: 700px;
+    border-radius: 15px;
+    box-shadow: 3px 3px #ddd;
+    padding: 1em;
+    margin: auto;
+}
+h5 {
+    color: #dd3232;
+}
+nav {
     border-top: 1px solid #eee;
     border-bottom: 1px solid #eee;
-    padding: 5px 0;
-    margin: 1em 0;
-    position: sticky;
-    top: 0;
-    background: white;
-  }
-  nav ul {
-    list-style: none;
-    margin: 0;
-  }
-  nav li {
+}
+nav li {
     display: inline-block;
-    padding: 0 0.5em;
-  }
-  nav a {
-    font-size: 0.8em;
+    padding-top: 4px;
+    padding-right: 20px;
+}
+nav ul {
+    margin-bottom: 4px;
+}
+a:link {
+    text-decoration: none;
     color: #777;
-  }
+    font-size: 13px;
+    font-weight: 500;
+}
+main > img {
+    width: 100%;
+}
+main > p {
+    width: 95%;
+    text-align: justify;
+    margin-left: 1em;
+    padding-bottom: .5em;
+}
+.more-articles{
+    padding-top: .5em;
+    border-top: 1px solid #eee;
+    width: 100%;
+    padding-bottom: 1em;
+    /* border: 1px solid black; */
+}
+.more-articles > section {
+    display: inline-block;
+    width: 40%;
+    padding-right: 1em;
+    padding-bottom: .2em;
+    padding-left: 2em;
+}
+.bonus-articles{
+    padding-top: .5em;
+    border-top: 1px solid #eee;
+    width: 100%;
+    padding-bottom: 1em;
+    /* border: 1px solid black; */
+}
+.bonus-articles > section {
+    display: inline-block;
+    width: 25%;
+    padding-right: .75em;
+    padding-bottom: .75em;
+    padding-left: 1.8em;
+    /* border: 1px solid black; */
+}
+#bonus-h5 {
+    margin: 0;
+    padding-top: 0;
+    /* border: 1px solid black; */
+}
+section > p {
+    width: 95%;
+    text-align: justify;
+    margin-left: 1em;
+}
+footer li {
+    display: inline-block;
+    padding-top: 2px;
+    padding-right: 20px;
+}
+footer {
+    border-top: 3px double #eee;
+}
